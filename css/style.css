@@ -1,0 +1,91 @@
+/*Estrutura do site*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url("../imagens/fundo.png");
+    background-repeat: repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+/**********************/
+
+
+/*HEADER*************/
+#header{
+    height: 180px;
+    background: url("../imagens/detalhe-topo.png") no-repeat right top;
+    padding: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/***************/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 7px 7px 3px rgba(0,0,0,0.5);
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul li a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.2em;
+    text-decoration: none;
+    line-height: 2.1em;
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 2px 2px 1px #000;
+}
+
+#header ul li a:hover{
+    color: #1d3557;
+    text-shadow: none;       
+}
+
+body.home #nav a#home{
+    border-top-left-radius: 15px;    
+}
+
+body.galeria #nav a#galeria{
+    border-bottom-right-radius: 15px;    
+}
+
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.internacional #nav a#internacional,
+body.economia #nav a#economia,
+body.saude #nav a#saude,
+body.ciencia #nav a#ciencia,
+body.galeria #nav a#galeria{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
