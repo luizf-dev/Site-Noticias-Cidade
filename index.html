@@ -8,7 +8,7 @@
         <!--ESTILO CSS-->
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body class="home">
+    <body id="tres-colunas" class="home">
         <!--container inicio-->
         <div id="container">
             <!--Header inicio-->
@@ -28,9 +28,50 @@
 
             <!--Conteudo inicio-->
             <div id="conteudo">                
-                <div id="primario">Primário</div>
+                <div id="primario">
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            
+                        </div>
+                    </div>
+                </div>
                 <div id="secundario">Secundário</div>
-                <div id="lateral">Lateral</div>
+
+                <!--Coluna lateral inicio-->
+                <div id="lateral">
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            <ul>
+                                <li><a href="">José Almeida</a></li>
+                                <li><a href="">Felipe Honório</a></li>
+                                <li><a href="">Silvio Sampaio</a></li>
+                                <li><a href="">Augustu Sobrinho</a></li>
+                                <li><a href="">Sandoval Correia</a></li>
+                                <li><a href="">Renata Campos</a></li>
+                                <li><a href="">Sabrina Gusmão</a></li>
+                                <li><a href="">Jarbas Salomão</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa-conteudo">
+                            <form action="">
+                                <div>
+                                    <label for="email">Email: </label>
+                                    <input type="text" name="email" id="email" placeholder="Seu Email">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" name="cadastrar" value="Cadastrar" id="cadastrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Coluna lateral fim-->
             </div>
             <!--Conteudo final-->
         </div>
