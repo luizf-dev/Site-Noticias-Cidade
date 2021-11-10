@@ -127,7 +127,6 @@ body.galeria #nav a#galeria{
 
 #secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -195,13 +194,51 @@ input{
 
 input.submit{
     width: 150px;
-    color: #000;
+    color: #fff;
+    text-shadow: 2px 1px 1px #000;
     background-color: #294c71;
     border: none;
     padding: 5px;
     margin-top: 6px;
     border-radius: 3px;
+    font-weight: 900;
 }
+
+/*******FORMATANDO IMAGENS *************/
+
+img.imagem-principal{
+    width: 100%;
+    box-shadow: 2px 4px 3px #000;
+}
+
+img.imagem-principal:hover{
+    opacity: 0.7;
+}
+
+/******** FORMATANDO CABEÇALHOS********/
+h3{
+    text-transform: uppercase;
+    display:block;
+    font-size: 0.8em;
+    padding: 2px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.destaque h3{
+    background-color: #b10333;
+    color: #fff ;
+    border: 1px solid #000;
+    box-shadow: 2px 4px 3px #000;
+    font-weight: 900;
+    text-shadow: 2px 1px 1px #000;
+}
+
+
+
+
+
+
 
 /**********RODAPÉ**********/
 #rodape-container{
