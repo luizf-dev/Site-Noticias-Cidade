@@ -1,2 +1,2 @@
 # Site-Noticias-Cidade
-Template simples, Site ficticio de Notícias, desenvolvido em aula.
+Template simples, Site ficticio Notícias Cidade, desenvolvido em aula.
